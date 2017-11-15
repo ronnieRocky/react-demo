@@ -1,0 +1,25 @@
+
+  @keyframes spincube {
+      from {
+        transform: rotateX(360deg) rotateY(360deg);
+      }
+      
+      to {
+        transform: rotateX(0deg) rotateY(0deg);
+      }
+  }
+
+  .cubespinner {
+    position: relative;
+    animation-name: spincube;
+    // animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d;
+  }
+
+  .cubespinner div {
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+  }
