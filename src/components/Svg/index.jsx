@@ -9,6 +9,7 @@ import styles from './index.less';
 export default class Svg extends React.Component {
 
   render() {
+    //
     return (
     <div
       className={styles.stage}
